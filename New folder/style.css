@@ -1,0 +1,427 @@
+/* for all the elements */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+#header {
+    height: 100vh;
+    background-image: url(images/Food-tech-tomatoes.gif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo {
+    margin-top: 30px;
+    width: 100px;
+
+}
+
+.header-text {
+    max-width: 350px;
+    margin-top: 140px;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #5ff309;
+    margin: 15px;
+
+}
+
+
+.common-btn {
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+p {
+
+    font-size: 15px;
+    line-height: 18px;
+    color: #0e0101;
+    font: bold;
+}
+
+.header-text button {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.line-1 {
+    width: 15px;
+    height: 15px;
+    background: #5ff309;
+    display: inline-block;
+}
+
+.line-2 {
+    width: 80px;
+    height: 1px;
+    background: #5ff309;
+    display: inline-block;
+}
+
+.line-3 {
+    width: 60px;
+    height: 1px;
+    background: #5ff309;
+    display: inline-block;
+}
+
+.line {
+    line-height: 8px;
+}
+
+/* 91 color */
+#sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    /* background: #e6cfd3; */
+    z-index: 2;
+    transition: .5s linear;
+    
+    background: #fff;
+    box-shadow: 0 20px 35px rgba(0, 0, 0,0.1);
+
+}
+
+/* .navimg{
+    background-image: url(images/wp5834973-phone-simple-wallpapers.jpg);
+} */
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+
+/* text inside li */
+nav ul li {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#menuBtn {
+    width: 35px;
+    position: fixed;
+    right: 60px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* ---about--- */
+
+#about,#pass3 {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-left-col {
+    flex-basis: 50%;
+}
+
+.about-left-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-right-col {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.about-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block
+}
+
+.about-text h2 {
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.about-text h3 {
+    font-size: 20px;
+    font-style: italic;
+    color: #797979;
+}
+
+/* ----features---- */
+/* 
+#features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.feature-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-col{
+    flex-basis: 25%;
+    text-align: center;
+} */
+
+.pass2-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pass2-right-col{
+    flex-basis: 50%;
+}
+
+.pass2-right-col img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.pass2-left-col{
+    flex-basis: 50%;
+}
+
+.pass2-text{
+    max-width: 350px;
+
+}
+
+/* pass4 */
+
+.p4h2{
+    text-align: center;
+}
+
+.pass4 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/* pass5 */
+.p4p{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.pp{
+    font-size: large;
+}
+
+/* pass6 */
+.pass6 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+
+    
+}
+
+.gta{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/wallpaperflare.com_wallpaper.jpg); 
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gta2{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+
+
+
+/*---contact---*/
+#ok{box-sizing: border-box;}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/pixel-landscape-dt.jpg); 
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #0e0d0d;
+    background: transparent;
+    font-size: 15px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+
+.btn2{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+input:focus~label,
+input:valid~label
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .input-group{
+    flex-basis: 48%;
+}
+
+/*--footer-- */
+
+#footer{
+    padding: 50px 0 30px;
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+
+}
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;   
+}
+
+.footer-right-col{
+    flex-basis: 35%;  
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-title h4{
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+
+.link-title small{
+    font-size: 13px;
+    color:#777;
+}
